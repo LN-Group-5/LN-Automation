@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    This Feature tests to heros scenarios",
+    "keyword": "Feature",
+    "name": "Heros Functionality",
+    "line": 1,
+    "id": "heros-functionality",
+    "tags": [],
+    "uri": "HerosPage.feature",
+    "elements": [
+      {
+        "id": "heros-functionality;as-a--user,-i-want-to-navigate-to-heros-in-order-to-see-the-list-of-heros",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a  user, I want to navigate to heros in order to see the list of heros",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user shall see the employee dashboard the click the heros button",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user shall to remove a hero in order to see the hero list decrease",
+            "result": {
+              "status": "passed",
+              "duration": 1108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user shall to add a hero in order to see the hero list increase",
+            "result": {
+              "status": "passed",
+              "duration": 3497000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user shall to add a hero without a name in order to see the hero list remain the same",
+            "result": {
+              "status": "passed",
+              "duration": 3124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the user shall to clear the message",
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

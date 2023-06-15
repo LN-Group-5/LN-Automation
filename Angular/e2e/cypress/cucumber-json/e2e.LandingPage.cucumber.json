@@ -23,7 +23,7 @@
             "name": "the user is on the landing page",
             "result": {
               "status": "passed",
-              "duration": 415000000
+              "duration": 289000000
             }
           },
           {
@@ -33,7 +33,27 @@
             "name": "the user shall see the employee dashboard",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user shall see top 4 Heroes displayed",
+            "result": {
+              "status": "passed",
+              "duration": 496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user shall select a hero from the dashboard in order to see the hero details displayed",
+            "result": {
+              "status": "passed",
+              "duration": 550000000
             }
           }
         ]
