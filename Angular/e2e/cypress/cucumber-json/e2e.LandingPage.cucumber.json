@@ -23,7 +23,7 @@
             "name": "the user is on the landing page",
             "result": {
               "status": "passed",
-              "duration": 289000000
+              "duration": 302000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the user shall see top 4 Heroes displayed",
             "result": {
               "status": "passed",
-              "duration": 496000000
+              "duration": 492000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "the user shall select a hero from the dashboard in order to see the hero details displayed",
             "result": {
               "status": "passed",
-              "duration": 550000000
+              "duration": 557000000
             }
           }
         ]

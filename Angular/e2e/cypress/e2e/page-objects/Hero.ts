@@ -2,19 +2,18 @@ import { link } from 'fs';
 
 export class Hero {
   //Selectors
-  static heroLink1 = (): string => `a[href='/heroes']`;
-  static heroLink2 = (): string => `//a[@href='/heroes']`;
+  static heroLink = (): string => `//a[@href='/heroes']`;
+  static heroDeleteClass = (): string =>
+    `.heroes > :nth-last-child(1) > .delete`;
 
   //Actions
+
   static clickHeroLink() {
-    cy.get(this.heroLink1()).click();
-  }
-  static clickHeroLink2() {
-    cy.xpath(this.heroLink2()).click();
+    cy.xpath(this.heroLink()).click();
   }
   static clickDeleteLastHero() {
     cy.wait(1000);
-    cy.get('.heroes > :nth-last-child(1) > .delete').click();
+    cy.get(this.heroDeleteClass()).click();
     cy.get('li').then(($items) => {
       cy.wrap($items).should('have.length', 8);
     });

@@ -8,7 +8,7 @@ Given(/^the user is on the landing page$/, () => {
 Then(
   /^the user shall see the employee dashboard the click the heros button$/,
   () => {
-    Hero.clickHeroLink2();
+    Hero.clickHeroLink();
   }
 );
 
